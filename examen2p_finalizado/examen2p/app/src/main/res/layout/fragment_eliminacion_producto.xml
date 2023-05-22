@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentos.EliminacionProducto_f">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eliminarAdvertencia"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Advertencia, está por eliminar "
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/eliminacionNombreProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/eliminarPregunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿está seguro?" />
+
+            <ImageButton
+                android:id="@+id/eliminarMiProducto"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#BD2424"
+                android:src="@android:drawable/ic_menu_delete"
+                app:tint="#FFFFFF"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginLeft="270dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentos.EditarProducto_f">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="40dp">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre del producto"
+                        android:layout_marginLeft="45dp"/>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="precio"
+                        android:layout_marginLeft="100dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edicionNombreProducto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:ems="10"
+                        android:hint="Nombre del producto "
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp" />
+
+                    <EditText
+                        android:id="@+id/edicionPrecioProducto"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:ems="10"
+                        android:hint="Precio"
+                        android:inputType="numberDecimal"
+                        android:minHeight="48dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Existencia"
+                    android:layout_marginLeft="30dp"/>
+
+                <EditText
+                    android:id="@+id/edicionExistenciaProducto"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:ems="10"
+                    android:hint="Existencia"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Descripción del producto"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edicionDescripcionProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="40dp"
+                    android:backgroundTint="#D3BFBF"
+                    android:ems="10"
+                    android:hint="Descripción del producto"
+                    android:inputType="textMultiLine"
+                    android:minHeight="48dp"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/EditarMiProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Editar" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

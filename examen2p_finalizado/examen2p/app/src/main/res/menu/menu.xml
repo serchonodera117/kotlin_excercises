@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/misNegocios"
+      android:icon="@drawable/principal"
+      android:title="Principal"/>
+
+    <item
+        android:id="@+id/misClientes"
+        android:icon="@drawable/misclientes"
+        android:title="Mis clientes"/>
+
+    <item
+        android:id="@+id/misVentas"
+        android:icon="@drawable/misventas"
+        android:title="mis Ventas"/>
+</menu>

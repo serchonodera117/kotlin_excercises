@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/drawable/misventas.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/drawable/principal.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/drawable/selected_misventas.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/drawable/sombra.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_acciones_misventas.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_agregar_mi_negocio.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_agregar_producto.xml" value="0.2028688524590164" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_editar_cliente.xml" value="0.264" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_negocios_administrar.xml" value="0.4" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_principal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_pruebas.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_registro_cliente.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/activity_registro_vendedor.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/estilo_lista_clientes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/estilo_lista_productos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/estilo_lista_ventas.xml" value="0.4" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/estilo_listanegocios.xml" value="0.2" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/estilo_listaproductos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_agregar_cliente_f.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_agregar_negocio_f.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_agregar_producto_f.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_clientes__venta_f.xml" value="0.25" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_edicion_cliente.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_editar_producto_f.xml" value="0.264" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_eliminacion_producto.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_formulario_venta_f.xml" value="0.264" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_lista_clientes_f.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_lista_negocios_venta_f.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_lista_productos_f.xml" value="0.264" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_lista_ventas_productos_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_mis_clientes_f.xml" value="0.4" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_mis_ventas_f.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/fragment_principal_f.xml" value="0.34765625" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/imagen_redondeada.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/layout/lista_productos.xml" value="0.4" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/menu/buscador.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/examen2p/app/src/main/res/menu/menu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

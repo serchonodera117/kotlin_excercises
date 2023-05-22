@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroCliente">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/editaClienterNombre"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Nombre" />
+
+            <EditText
+                android:id="@+id/editaClienteApellidos"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Apellidos" />
+
+            <EditText
+                android:id="@+id/editaClienteImagen"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Url de imagen del usuario" />
+
+            <Spinner
+                android:id="@+id/editaClienteMunicipio"
+                android:layout_width="309dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/editaClienteColonia"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Colonia" />
+
+            <EditText
+                android:id="@+id/editaClienteDomicilio"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Domicilio #00" />
+
+            <EditText
+                android:id="@+id/editaClienteCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Correo electronico "
+                android:inputType="textEmailAddress" />
+
+
+
+            <EditText
+                android:id="@+id/editaClienteTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Teléfono"
+                android:inputType="phone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/quitarEdicion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="cancelar"
+                    android:layout_marginBottom="30dp"/>
+                <Button
+                    android:id="@+id/cometerEdicionCliente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Guardar"
+                    android:layout_marginBottom="30dp"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

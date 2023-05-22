@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentos.ListaProductos_f">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/botonBuscarProducto"
+                android:layout_width="45dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:src="@drawable/icono_buscar"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/cajaBusquedaProductos"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:hint="Buscar producto..."
+                android:inputType="textPersonName"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/limpiarBusquedaProductos"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:minHeight="48dp"
+                android:src="@android:drawable/ic_input_delete"
+                app:tint="#ADC6F1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="658dp"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listaMisProductosN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp" />
+
+
+        </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
